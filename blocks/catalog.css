@@ -1,0 +1,23 @@
+.catalog {
+    padding: 40px 0;
+}
+
+.catalog__title {
+    font-weight: 600;
+    font-size: 72px;
+}
+
+.catalog__subtitle {
+    font-weight: 200;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin: 20px 0 0 0;
+}
+
+.catalog__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px 0 0 0;
+    grid-gap: 30px;
+}

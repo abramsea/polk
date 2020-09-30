@@ -1,0 +1,15 @@
+.header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #343749;
+}
+
+.header__logo {
+    text-decoration: none;
+    line-height: 0;
+}
+
+.header__logo-img {
+    width: 80px;
+}

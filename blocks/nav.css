@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.nav__elem {
+    list-style-type: none;
+    display: block;
+    margin: 10px;
+    background: #e5e5e5;
+    padding: 12px 30px;
+    border-radius: 30px;;
+}
+
+.nav__elem:hover, .nav__elem_active {
+    background: #000;
+}
+
+.nav__elem:hover .nav__elem-link, .nav__elem_active .nav__elem-link {
+    color: #fff;
+}
+
+.nav__elem:first-of-type {
+    margin: 10px 10px 10px 0;
+}
+
+.nav__elem:last-of-type {
+    margin: 10px 0 10px 10px;
+}
+
+.nav__elem-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
