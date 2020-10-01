@@ -1,6 +1,6 @@
 .card {
     text-decoration: none;
-    padding: 4px;
+    padding: 8px;
 }
 
 .card:hover {
@@ -8,9 +8,11 @@
 }
 
 .card__img {
-    width: 277px;
+    width: 252px;
     height: 200px;
     object-fit: contain;
+    margin: 0 auto;
+    display: block;
 }
 
 .card__title {
@@ -65,4 +67,16 @@
     font-size: 16px;
     margin: 20px 0 0 0;
     color: #000;
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 420px) {
+
 }

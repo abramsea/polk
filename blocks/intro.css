@@ -14,3 +14,19 @@
     text-transform: uppercase;
     margin: 0;
 }
+
+@media screen and (max-width: 1279px) {
+    .intro {
+        padding: 24px 0 0 0;
+    }
+
+    .intro__text {
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        padding: 16px 0 0 0;
+    }
+}
