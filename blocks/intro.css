@@ -2,10 +2,28 @@
     padding: 40px 0 0 0;
 }
 
+.intro__video-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px 0;
+}
+
+.intro__video {
+    width: 90%;
+    height: 280px;
+}
+
+.intro__text-box {
+    max-width: 600px;
+}
+
+.intro__text-title {
+    font-size: 32px;
+}
+
 .intro__text {
     font-size: 16px;
     font-weight: 400;
-    margin: 40px 0;
 }
 
 .intro__title {
@@ -20,13 +38,27 @@
         padding: 24px 0 0 0;
     }
 
-    .intro__text {
+    .intro__video-box {
+        grid-template-rows: 1 1fr;
+        grid-template-columns: 1fr;
         margin: 20px 0;
+    }
+    
+    .intro__video {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 767px) {
     .intro {
         padding: 16px 0 0 0;
+    }
+
+    .intro__video {
+        height: 230px;
+    }
+
+    .intro__text-title {
+        font-size: 24px;
     }
 }
