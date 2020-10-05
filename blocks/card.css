@@ -1,6 +1,7 @@
 .card {
     text-decoration: none;
-    padding: 8px;
+    padding: 8px 8px 100px 8px;
+    position: relative;
 }
 
 .card:hover {
@@ -33,6 +34,9 @@
 .card__colors {
     display: flex;
     margin: 20px 0 0 0;
+    position: absolute;
+    left: 8px;
+    bottom: 48px;
 }
 
 .card__color {
@@ -67,16 +71,7 @@
     font-size: 16px;
     margin: 20px 0 0 0;
     color: #000;
-}
-
-@media screen and (max-width: 1279px) {
-
-}
-
-@media screen and (max-width: 767px) {
-
-}
-
-@media screen and (max-width: 420px) {
-
+    position: absolute;
+    left: 8px;
+    bottom: 16px;
 }
